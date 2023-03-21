@@ -17,6 +17,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/alan/STM32CubeIDE/aaa"/>
+			<item value="/home/alan/Downloads/aaa/PdM_workspace-main/practica_2"/>
+			<item value="/home/alan/Downloads/aaa/PdM_workspace-main"/>
 			<item value="/home/alan/STM32CubeIDE/workspace_1.11.2"/>
 		</list>
 	</section>

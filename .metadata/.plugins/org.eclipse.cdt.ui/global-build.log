@@ -1,21 +1,14 @@
-00:05:26 **** Incremental Build of configuration Debug for project Practica2Ejercicio2 ****
+22:28:34 **** Incremental Build of configuration Debug for project Practica3Ejercicio2 ****
 make -j16 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"/home/alan/STM32CubeIDE/workspace_1.11.2/PdM_workspaceAlanAyala/Practica2Ejercicio2/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/alan/STM32CubeIDE/workspace_1.11.2/PdM_workspaceAlanAyala/Practica2Ejercicio2/Drivers/CMSIS/Include" -I"/home/alan/STM32CubeIDE/workspace_1.11.2/PdM_workspaceAlanAyala/Practica2Ejercicio2/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/alan/STM32CubeIDE/workspace_1.11.2/PdM_workspaceAlanAyala/Practica2Ejercicio2/Drivers/BSP/STM32F4xx_Nucleo_144" -I"/home/alan/STM32CubeIDE/workspace_1.11.2/PdM_workspaceAlanAyala/Practica2Ejercicio2/Drivers/Core/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "Practica2Ejercicio2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/alan/STM32CubeIDE/workspace_1.11.2/PdM_workspaceAlanAyala/Practica2Ejercicio2/STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica2Ejercicio2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Practica2Ejercicio2.elf
- 
-arm-none-eabi-size   Practica2Ejercicio2.elf 
-arm-none-eabi-objdump -h -S  Practica2Ejercicio2.elf  > "Practica2Ejercicio2.list"
+arm-none-eabi-size   Practica3Ejercicio2.elf 
    text	   data	    bss	    dec	    hex	filename
-   6404	     32	   1568	   8004	   1f44	Practica2Ejercicio2.elf
+   6512	     44	   1580	   8136	   1fc8	Practica3Ejercicio2.elf
 Finished building: default.size.stdout
  
-Finished building: Practica2Ejercicio2.list
- 
-00:05:41 **** Incremental Build of configuration Debug for project Practica2Ejercicio2 ****
+22:28:43 **** Incremental Build of configuration Debug for project Practica3Ejercicio2 ****
 make -j16 all 
-arm-none-eabi-size   Practica2Ejercicio2.elf 
+arm-none-eabi-size   Practica3Ejercicio2.elf 
    text	   data	    bss	    dec	    hex	filename
-   6404	     32	   1568	   8004	   1f44	Practica2Ejercicio2.elf
+   6512	     44	   1580	   8136	   1fc8	Practica3Ejercicio2.elf
 Finished building: default.size.stdout
  
