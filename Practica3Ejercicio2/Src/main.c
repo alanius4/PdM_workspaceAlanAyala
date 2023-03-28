@@ -82,9 +82,10 @@ int main(void)
 	SystemClock_Config();
 
 	/* Initialize BSP Led for LED1,LED2,LED3 */
-	for(uint8_t i=0;i<3;i++){
-		BSP_LED_Init(led_seq[i]);
-	}
+	BSP_LED_Init(LED1);
+	BSP_LED_Init(LED2);
+	BSP_LED_Init(LED3);
+
 
 
 	/*Initialize delays associated with each LED  */
